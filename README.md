@@ -40,6 +40,19 @@ _Read this in other languages:_
 [_Uzbek_](README.uz-UZ.md),
 [_עברית_](README.he-IL.md)
 
+## About This Standalone Edition
+
+- **Main repository:** [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+- **Based on version:** upstream commit `85293e3e2b88f4d2ce330d956b139cf628aa1e82` (snapshotted 2026-10-20; upstream HEAD dated 2026-07-25)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions and npm (root `package.json`) dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the README and the many per-algorithm READMEs (upstream ESLint/Jest CI workflow kept as-is)
+  - Repository About description and homepage set to the upstream project, with the enhancements and versions stated there too
+- **Credit & licence:** All original work belongs to Oleksii Trekhleb and the javascript-algorithms contributors. Licence is preserved unchanged — see `LICENSE` (MIT License). Upstream's own `.editorconfig` is kept as-is. This edition adds the enhancements listed above only.
 ## Data Structures
 
 A data structure is a particular way of organizing and storing data in a computer so that it can
