@@ -35,7 +35,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@babel/cli": "^7.28.6",
+    "@babel/cli": "^8.0.6",
     "@babel/preset-env": "^8.0.7",
     "@types/jest": "^30.0.0",
     "eslint": "^10.13.0",
